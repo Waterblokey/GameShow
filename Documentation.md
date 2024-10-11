@@ -23,7 +23,7 @@ We chose **React + Electron** because this setup effectively supports our applic
    In your terminal, run:
    ```
    npm init electron-app@latest <FOLDER_NAME> -- --template=webpack
-```
+   ```
 This setup includes everything needed to get an Electron app running.
 
 2. Navigate to Your Project Folder
