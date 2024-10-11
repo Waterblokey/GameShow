@@ -26,11 +26,11 @@ We chose **React + Electron** because this setup effectively supports our applic
 ```
 This setup includes everything needed to get an Electron app running.
 
-# 2. Navigate to Your Project Folder
+2. Navigate to Your Project Folder
 ```
 cd <FOLDER_NAME>
 ```
-# 3. Configure Webpack
+ 3. Configure Webpack
 # Open webpack.rules.js and change the line:
 ```
 test: /\.tsx?$/ 
@@ -41,11 +41,11 @@ test: /\.jsx?$/
 ```
 # Note: Changing to `.jsx` allows JavaScript usage. Keep it as `.tsx` if you prefer TypeScript.
 
-# 4. Install Development Dependencies
+ 4. Install Development Dependencies
 ```
 npm install --save-dev @babel/core @babel/preset-react babel-loader
 ```
-# 5. Add Babel Loader to Webpack
+ 5. Add Babel Loader to Webpack
 # In `webpack.rules.js`, add the following configuration at line 19:
 ```
  {
@@ -59,11 +59,11 @@ npm install --save-dev @babel/core @babel/preset-react babel-loader
     }
  }
 ```
-# 6. Install React
+ 6. Install React
 ```
 npm install --save react react-dom
 ```
-# 7. Set Up React
+ 7. Set Up React
 # In the src folder, create an index.jsx file with the following content:
 ```
  import * as React from 'react';
@@ -72,16 +72,16 @@ npm install --save react react-dom
  const root = createRoot(document.body);
  root.render(<h2>Hello from React!</h2>);
 ```
-# 8. Update Files
+ 8. Update Files
 # Update renderer.js and modify `index.css` to `index.jsx`.
 
-# 9. Run the Application
+ 9. Run the Application
 ```
 npm start
 ```
 # This should now display a basic React-powered desktop app.
 
-# 10. Additional Configuration for React Structure
+ 10. Additional Configuration for React Structure
 # Create a components folder within src.
 # Inside components, create a Home.jsx file with:
 ```
@@ -99,7 +99,7 @@ npm start
  ```
 # Add .jsx to the end of './components/Home' in index.jsx.
 
-# 11. Run the App
+ 11. Run the App
 ```
 npm start
 ```
