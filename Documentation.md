@@ -64,6 +64,7 @@ npm install --save-dev @babel/core @babel/preset-react babel-loader
 npm install --save react react-dom
 ```
  7. **Set Up React**
+    
 In the src folder, create an index.jsx file with the following content:
 ```
  import * as React from 'react';
@@ -73,6 +74,7 @@ In the src folder, create an index.jsx file with the following content:
  root.render(<h2>Hello from React!</h2>);
 ```
  8. **Update Files**
+    
  Update renderer.js and modify `index.css` to `index.jsx`.
 
  9. **Run the Application**
@@ -82,6 +84,7 @@ npm start
  This should now display a basic React-powered desktop app.
 
  10. **Additional Configuration for React Structure**
+     
  - Create a components folder within src.
  - Inside components, create a `Home.jsx` file with:
 ```
@@ -93,14 +96,14 @@ npm start
     );
  }
 ```
-# In index.jsx, replace root.render content with:
+ In index.jsx, replace root.render content with:
 ```
  <Home />
  ```
-# Add .jsx to the end of './components/Home' in index.jsx.
+ Add .jsx to the end of './components/Home' in index.jsx.
 
- 11. Run the App
+ 11. **Run the App**
 ```
 npm start
 ```
-# Use this to see changes reflected in the desktop app.
+ Use this to see changes reflected in the desktop app.
