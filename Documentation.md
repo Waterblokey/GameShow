@@ -26,11 +26,11 @@ We chose **React + Electron** because this setup effectively supports our applic
    ```
 This setup includes everything needed to get an Electron app running.
 
-2. Navigate to Your Project Folder
+2. **Navigate to Your Project Folder**
 ```
 cd <FOLDER_NAME>
 ```
- 3. Configure Webpack
+ 3. **Configure Webpack**
 # Open webpack.rules.js and change the line:
 ```
 test: /\.tsx?$/ 
