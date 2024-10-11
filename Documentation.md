@@ -46,6 +46,7 @@ test: /\.jsx?$/
 npm install --save-dev @babel/core @babel/preset-react babel-loader
 ```
  5. **Add Babel Loader to Webpack**
+ 
  In `webpack.rules.js`, add the following configuration at line 19:
 ```
  {
