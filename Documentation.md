@@ -31,6 +31,7 @@ This setup includes everything needed to get an Electron app running.
 cd <FOLDER_NAME>
 ```
  3. **Configure Webpack**
+
 Open webpack.rules.js and change the line:
 ```
 test: /\.tsx?$/ 
